@@ -329,18 +329,39 @@ select{
 #footer-section {
     background: #ffffff;
 }
-#facebook-box   {
+
+/* new */
+#facebook-btn   {
     background: #3B5999;
-    /* height: 126px; */
+    font-size: 30px;
+    line-height: 41px;
+    color: white;
+    border: none;
+    box-shadow: none;
 }
-#dribbble-box   {
+#dribble-btn   {
     background: #EA4C89;
+    font-size: 30px;
+    line-height: 41px;
+    color: white;
+    border: none;
+    box-shadow: none;
 }
-#twitter-box    {
+#twitter-btn   {
     background: #007EE5;
+    font-size: 30px;
+    line-height: 41px;
+    color: white;
+    border: none;
+    box-shadow: none;
 }
-#headset-box    {
-   background: #01D1C1;
+#support-btn   {
+    background: #01D1C1;
+    font-size: 30px;
+    line-height: 41px;
+    color: white;
+    border: none;
+    box-shadow: none;
 }
 i   {
     margin-right: 10px;
@@ -616,9 +637,22 @@ i   {
     i   {
         margin-right: 3px;
     }
-    #social-media   {
+    
+    #facebook-btn   {
         font-size: 5px;
-        line-height: 10px;
+        line-height: 10px
+    }
+    #dribble-btn   {
+        font-size: 5px;
+        line-height: 10px;  
+    }
+    #twitter-btn   {
+        font-size: 5px;
+        line-height: 10px
+    }
+    #support-btn   {
+        font-size: 5px;
+        line-height: 10px
     }
     
     
@@ -684,7 +718,22 @@ i   {
         font-size: 20px;
         line-height: 41px;
     }
-
+    #facebook-btn   {
+        font-size: 20px;
+        line-height: 41px
+    }
+    #dribble-btn   {
+        font-size: 20px;
+        line-height: 41px 
+    }
+    #twitter-btn   {
+        font-size: 20px;
+        line-height: 41px
+    }
+    #support-btn   {
+        font-size: 20px;
+        line-height: 41px
+    }
     
   
 }
