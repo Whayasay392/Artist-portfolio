@@ -24,6 +24,10 @@ header  {
     line-height: 38px;
     font-family: Overpass;
 }
+#nav-text:hover {
+    background: #3B5999;
+    border-radius: 10px;
+}
 /* .navbar-nav li.active::after    {
     position: absolute;
     bottom: -10px;
@@ -292,12 +296,7 @@ padding-bottom: 10px;
 }
 select{
    border: none;
-   
-  }
-  select option { color: black; }
-  select option:first-child{
-    color: green;
-  }
+}
 #contact-submit-btn   {
     width: 271px;
     height: 96px;
@@ -355,10 +354,11 @@ i   {
 /* * Media Queries */ 
 /* Mobile */
 @media(max-width: 799px) {
+    
     header  {
         background:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('/assets/images/image\ 19.png');
         opacity: 0.9;
-        height: 250px;
+        height: auto;
     
     
     }
