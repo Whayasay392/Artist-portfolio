@@ -28,23 +28,28 @@ header  {
     line-height: 38px;
     font-family: Overpass;
 }
-#nav-text:hover {
-    background: #3B5999;
-    border-radius: 10px;
-}
-/* .navbar-nav li.active::after    {
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    right: 0;
+
+
+.nav-item > a:after{
+    content: '';
+    display: block;
+    height: 1.5px;
     width: 70%;
-    content: " ";
-    color: #3B5999;
+    background: #3B5999;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+.nav-item > a:hover:after{
+    transform: scaleX(1);
+    transition: transform .3s;
+}
+
+.active{
+    color: #3B5999 !important;
+}
+/* .navbar-nav .active>.nav-link   {
     border-bottom: 3px solid #3B5999;
 } */
-.navbar-nav .active>.nav-link   {
-    border-bottom: 3px solid #3B5999;
-}
 
 #hero-heading   {
     font-family: 'Oswald';
