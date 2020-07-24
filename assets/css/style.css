@@ -8,12 +8,23 @@ body    {
     font-family: Nunito Sans;
    
 }
+/* .container  {
+    width: 100% !important;
+   
+   margin: 0 auto;
+} */
 header  {
     background:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('/assets/images/headerbg.png');
-    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 709px;
 
 }
+.navbar {
+    padding-bottom: 0 !important;
+}
+
 #artist-logo    {
     font-size: 30px;
     line-height: 41px;
@@ -24,22 +35,32 @@ header  {
     line-height: 38px;
     font-family: Overpass;
 }
-#nav-text:hover {
-    background: #3B5999;
-    border-radius: 10px;
-}
-/* .navbar-nav li.active::after    {
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    right: 0;
+
+.nav-item > a:after{
+    content: '';
+    display: block;
+    height: 1.5px;
     width: 70%;
-    content: " ";
-    color: #3B5999;
-    border-bottom: 3px solid #3B5999;
-} */
-.navbar-nav .active>.nav-link   {
-    border-bottom: 3px solid #3B5999;
+    background: #3B5999;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+.nav-item > a:hover:after{
+    transform: scaleX(1);
+    transition: transform .3s;
+}
+.active{
+    color: #3B5999 !important;
+}
+#hero-img   {
+  margin-right: 0 !important;
+}
+#hero-img   {
+     position: absolute;
+     right: -10rem;
+    width: 877px ;
+  height: 726px;
+ 
 }
 
 #hero-heading   {
@@ -254,6 +275,16 @@ padding-bottom: 10px;
     line-height: 30px;
     text-align: left;
 }
+.card   {
+    padding: 0 !important;
+}
+.card-title {
+    margin-top: 0 !important;
+    margin-bottom: 5px !important;
+}
+#profile-details    {
+    padding: 0 !important;
+}
 #card-heading   {
     font-size: 17px;
     font-weight: 600;
@@ -294,8 +325,11 @@ padding-bottom: 10px;
 #input {
     border: 1px solid white;
 }
+.form-control   {
+    height: 64px;
+}
 select{
-   border: none;
+   
 }
 #contact-submit-btn   {
     width: 271px;
@@ -669,10 +703,12 @@ i   {
     
     
     }
+   
     
     #hero-img   {
         display: none;
     }
+   
     #hero-heading   {
        
         text-align: center;
