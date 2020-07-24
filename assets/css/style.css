@@ -50,6 +50,16 @@ header  {
 /* .navbar-nav .active>.nav-link   {
     border-bottom: 3px solid #3B5999;
 } */
+#hero-img   {
+    margin-right: 0 !important;
+  }
+  #hero-img   {
+       position: absolute;
+       right: -10rem;
+      width: 877px ;
+    height: 726px;
+   
+  }
 
 #hero-heading   {
     font-family: 'Oswald';
