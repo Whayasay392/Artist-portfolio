@@ -195,6 +195,14 @@ header  {
     line-height: 30px;
     color: #656565;
 }
+#portfolio-images   {
+    transition: transform .2s;
+}
+#portfolio-images:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
 #howitworks-section {
     background: #FEF2F2;
 }
